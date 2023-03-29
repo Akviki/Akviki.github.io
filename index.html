@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,16 +10,74 @@
   <title>Резюме</title>
 </head>
 <body>
-  <header>
-
+  <header class="main-header"> 
+    <p class="logo">
+      <img src="img/logo-sky.jpg" width="80" height="80">
+    </p>
+    <div class="flex-names">
+      <p>Арсений Сорокин - мое имя</p>
+      <p><i>Akviki - уникальный псевдоним, который я придумал в далеком 2011</i></p>
+    </div>
+    <nav class="main-nav">
+      <p>Я в социальных сетях:</p>
+      <ul class="social-list">
+        <li class="social-item">
+          <a href="https://vk.com/arseniy246">
+            <img src="img/vk-logo.png" width="50" height="50" alt="Вконтакте">
+          </a>
+        </li>
+        <li class="social-item">
+          <a href="https://t.me/Arseniy_246">
+            <img src="img/telegram-logo.png" width="55" height="55" alt="Телеграмм">
+          </a>
+        </li>
+        <li class="social-item">
+          <a href="https://github.com/Akviki">
+            <img src="img/GitHub-Logo.png" width="50" height="50" alt="GitHub">
+          </a>
+        </li>
+      </ul>
+    </nav>
   </header>
 
   <main>
-
+    <h1>Мои проекты</h1>
+    <ul class="portfolio-list">
+      <li class="portfolio-item">
+        <a href="projects/sail-club/index.html"> 
+          <img  class="sail-club" src="projects/sail-club/img/logo.svg" width="150" height="150" alt="Логотип яхт-клуба Yacht Club">
+        </a>
+      </li>
+    </ul>
+    <p class="disclaimer">Это не оконченный список <br> 
+      Проекты со временем улучшаются и добавляются
+    </p>
+    <div class="figure-wrapper">
+      <p>На данный момент прохожу обучение <br>
+        на интерактивной онлайн-платформе
+      </p>
+      <a href="https://htmlacademy.ru/">
+        <img src="img/html-academy-logo.png" width="110" height="50"  alt="Логотип html-academy">
+      </a>
+    </div>
   </main>
-  
-  <footer>
 
+  <footer class="main-footer">
+    <h2>Мои контакты:</h2>
+    <ul class="contacts-list">
+      <li class="contact-item">
+        <h3>E-mail:</h3>
+        <a href="mailto:ctyb00@mail.ru">ctyb00@mail.ru</a>
+      </li>
+      <li class="contact-item">
+        <h3>Телефон:</h3>
+        <a href="tel:+79043521966">+7 (904) 352-19-66</a>
+      </li>
+      <li class="contact-item">
+        <h3>Адрес:</h3>
+        <address>Россия, г. Санк-Петербург</address>
+      </li>
+    </ul>
   </footer>
 </body>
 </html>
