@@ -1,0 +1,303 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #FFFFFF;
+  color: #303030;
+  font-size: 16px;
+  line-height: 20px;
+
+  margin: 0;
+}
+
+.page-header {
+  width: 1100px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 35px 0px;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #A4C58C;
+}
+
+.main-nav {
+  display: flex;
+  width: 1100px;
+  align-items: center;
+}
+
+.logo {
+  margin: 0;
+  width: 197px;
+}
+
+.main-nav .logo {
+  margin-right: 60px;
+}
+
+.site-navigation {
+  display: flex;
+  gap: 35px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  width: 270px;
+}
+
+.site-navigation-item a {
+  color: #9A9A9A;
+  text-decoration: none;
+}
+
+.search {
+  width: 20px;
+  margin-left: auto;
+}
+
+.main-content {
+  width: 1100px;
+  margin: 0 auto;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+.hero {
+  margin-bottom: 110px;
+}
+
+.hero h1 {
+  font-size: 45px;
+  line-height: 55px;
+  margin-top: 0;
+  margin-bottom: 35px;
+  margin-left: 30px;
+}
+
+.quote {
+  width: 700px;
+  margin: 0 auto 110px;
+  padding: 45px 0;
+  border-top: 2px solid #A4C58C;
+  border-bottom: 2px solid #A4C58C;
+}
+
+.quote blockquote {
+  margin: 0;
+}
+
+.quote p {
+  font-size: 24px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.quote footer {
+  font-weight: 700;
+  text-align: center;
+}
+
+.fact-article {
+  display: flex;
+  justify-content: space-between;
+  width: 1020px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fact-article-1 {
+  margin-bottom: 60px;
+  flex-direction: row-reverse;
+}
+
+.fact-article-2 {
+  margin-bottom: 110px;
+}
+
+.fact-article-content {
+  width: 560px;
+}
+
+.fact-article-img {
+  width: 420px;
+}
+
+.fact-article h2 {
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 55px;
+  color: #A4C58C;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 10px;
+  text-underline-position: under;
+
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.fact-article h3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 35px;
+}
+
+.fact-article p {
+  line-height: 30px;
+  color: #000000;
+}
+
+.symptoms {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 110px;
+}
+
+.symptoms-column {
+  width: 500px;
+}
+
+.symptoms-img {
+  width: 500px;
+}
+
+.symptoms h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  margin-top: 65px;
+  margin-bottom: 90px;
+}
+
+.symptoms-list {
+  margin-bottom: 70px;
+}
+
+.symptoms-item {
+  font-size: 14px;
+  margin:  25px 0;
+  text-transform: uppercase;
+}
+
+.cta-button {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  margin: 0;
+  padding: 20px 120px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #FFFFFF;
+  background-color: #7EB252;
+}
+
+.gallery {
+  width: 930px;
+  margin: 0 auto;
+}
+
+.gallery h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+
+  margin: 0;
+  margin-bottom: 90px;
+}
+
+.gallery-wrapper {
+  display: flex;
+}
+
+.active-img {
+  width: 740px;
+  margin-right: 20px;
+}
+
+.gallery img {
+  
+  display: block;
+}
+
+.gallery-preview {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  width: 170px;
+}
+
+.preview-item {
+  margin-bottom: 20px;
+}
+
+.preview-item:last-child {
+  margin-bottom: 0;
+}
+
+.page-footer {
+  background-color: #F6F9F3;
+  padding: 90px 0;
+  margin-top: 110px;
+}
+
+.footer-container {
+  width: 1100px;
+  margin: 0 auto;
+  padding-left: 90px;
+  padding-right: 90px;
+  display: flex;
+}
+
+.footer-column {
+  width: 210px;
+  margin-right: 185px;
+}
+
+.footer-link {
+  font-size: 12px;
+  line-height: 16px;
+  text-decoration-line: underline;
+  color: #9A9A9A;
+}
+
+.footer-navigation {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  width: 705px;
+}
+
+.footer-menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-menu-item {
+  margin-bottom: 10px;
+}
+
+.footer-menu-item:last-child {
+  margin-bottom: 0;
+}
+
+.footer-navigation-title {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  margin-bottom: 30px;
+}
+
+.footer-menu-item a {
+  font-size: 12px;
+  line-height: 15px;
+  text-decoration: none;
+  color: #000000;
+}
+
+.footer-navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-navigation-item {
+  width: 175px;
+}
